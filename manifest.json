@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "0.0.0.1",
+    "name": "Wesele z klasą (dodatek)",
+    "description": "Usprawnij przeglądanie ofert na stronie weselezklasa.pl",
+    "content_scripts": [
+      {
+        "js": ["style.js", "custom_options.js", "improvements.js", "main.js"],
+        "matches": ["https://*.weselezklasa.pl/*"]
+      }
+    ]
+  }
